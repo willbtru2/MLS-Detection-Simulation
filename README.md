@@ -18,17 +18,16 @@ The scope of the implementation was drastically reduced to allow a team of unfam
 
 | Pin (MCU) | Connect To |
 |---------|---------|
-| A0 | 1 |
-| 0 |  1|
-| 2 | 1 |
-| 5 | 1 |
-| 7 | 1 |
-| 9 | 1 |
-| 10 | 1 |
-| 11 |  1|
-| 12 | 1 |
-| 13 | 1 |
-| 19 | 1 |
+| A0 (carrier)| O-scope |
+| 0 (timing)| 1 (carrier)|
+| 5 (timing)| 1 (carrier)|
+| 7 (timing)| 7 (carrier)|
+| 9 (timing)| 9 (carrier)|
+| 10 (timing)| 10 (carrier)|
+| 11 (timing)| 11 (carrier)|
+| 12 (timing)| 12 (carrier)|
+| 13 (timing)| 13 (carrier)|
+| 19 (timing)| 19 (carrier)|
 
 5. Connect the O-scope to the carrier MCU's output
 6. Fine tune the trace to see the desired characteristics.
